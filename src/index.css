@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+
+
+body {
+
+  font-family: "Open Sans", serif;
+  background-color: black;
+}
+
+.header h1{
+  color: white;
+  text-align: center;
+}
+
+.header p{
+  color: white;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  position: relative;
+  display: inline;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+  .btn-submit{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 29px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: green;
+    color:#fff ;
+}
+
+.results{
+  max-width: 1024px;
+  margin: 0 auto;
+  
+}
+.results h2 {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 0.15em;
+}
+
+.book-card {
+  text-align: center;
+  text-decoration: none;
+
+}
